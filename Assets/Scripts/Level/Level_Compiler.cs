@@ -11,6 +11,12 @@ public class Level_Compiler : Editor
         Object_Editor_Data[] objectsToStore = GameObject.FindObjectsOfType<Object_Editor_Data>();
 
         Level_Data newLevel = ScriptableObject.CreateInstance<Level_Data>();
+
+        for(int i = 0; i< objectsToStore.Length; i++)
+        {
+            newLevel.AddObjectToList(objectsToStore[i]);
+        }
+
         
         string pathToCreateLevel = "Assets/Scriptables/Level/";
 
