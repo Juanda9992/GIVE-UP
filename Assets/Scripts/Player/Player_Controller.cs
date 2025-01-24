@@ -23,7 +23,7 @@ public class Player_Controller : MonoBehaviour
     private float movementAxis;
     private Rigidbody2D rb;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -60,5 +60,10 @@ public class Player_Controller : MonoBehaviour
         }
         return false;
     
+    }
+
+    public void ResetSpeed()
+    {
+        rb.velocity = Vector2.zero;
     }
 }
