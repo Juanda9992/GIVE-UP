@@ -66,4 +66,12 @@ public class Player_Controller : MonoBehaviour
     {
         rb.velocity = Vector2.zero;
     }
+
+    private void OnCollisionEnter2D(Collision2D other) 
+    {
+        if(other.transform.CompareTag("End"))
+        {
+            GameObject.FindObjectOfType<Level_Completion_Manager>().CompleteLevel();
+        }    
+    }
 }
