@@ -5,12 +5,20 @@ using UnityEngine.InputSystem;
 
 public class Player_Controller : MonoBehaviour
 {
+    [Header("Movement Values")]
     [SerializeField] private float movementSpeed;
     [SerializeField] private float jumpHeight;
 
+    [Header("Ground Detection")]
+    [SerializeField] private Transform checkAreaPosition;
+    [SerializeField] private float checkAreaRadius;
+    [SerializeField] private LayerMask groundDetectionLayerMask;
+
+    [Header("Input Actions")]
     [SerializeField] private InputActionReference horizontal_Movement_Action;
     [SerializeField] private InputActionReference jump_Action;
 
+    private bool canJump;
     private bool isJumping;
     private float movementAxis;
     private Rigidbody2D rb;
@@ -24,10 +32,13 @@ public class Player_Controller : MonoBehaviour
     {
         movementAxis = horizontal_Movement_Action.action.ReadValue<float>();
 
-        if(jump_Action.action.WasPressedThisFrame())
+        if(IsOnFloor())
         {
-            isJumping = true;
-        }     
+            if(jump_Action.action.WasPressedThisFrame())
+            {
+                isJumping = true;
+            }     
+        }
     }
 
     // Update is called once per frame
@@ -39,5 +50,15 @@ public class Player_Controller : MonoBehaviour
             isJumping = false;
             rb.velocity = new Vector2(rb.velocity.x,jumpHeight);
         }
+    }
+
+    private bool IsOnFloor()
+    {
+        if(Physics2D.OverlapCircle(checkAreaPosition.position,checkAreaRadius,groundDetectionLayerMask))
+        {
+            return true;
+        }
+        return false;
+    
     }
 }
