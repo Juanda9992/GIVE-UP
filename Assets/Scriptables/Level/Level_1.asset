@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d4fec61b3e5f654da49a0f6fa527768, type: 3}
   m_Name: Level_1
   m_EditorClassIdentifier: 
-  level_Objects:
-  - objectType: 1
-    objectPosition: {x: 4.74, y: -0.72}
+  level_Objects: []
