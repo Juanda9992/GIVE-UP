@@ -224,6 +224,45 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Logic",
+            "id": "ed1f3562-f41f-403e-8928-ae1986b90e5f",
+            "actions": [
+                {
+                    "name": "Reset Game",
+                    "type": "Button",
+                    "id": "ea061549-9cfd-4c77-9293-c1800c7ab640",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9a1a1e7-7c9d-436c-b1c1-fe70878917ed",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28c0e47e-0402-45cb-b8bf-ff7ef7246e27",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
