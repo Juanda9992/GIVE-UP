@@ -503,7 +503,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -632,7 +632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d8551f7ab0d3e44a0d7c4d1f260469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 6
+  jumpHeight: 7
   horizontal_Movement_Action: {fileID: -6070117524581872434, guid: 47061aea0a9a3f24591da7b3d3fe0fc4, type: 3}
   jump_Action: {fileID: -8010713233126461535, guid: 47061aea0a9a3f24591da7b3d3fe0fc4, type: 3}
 --- !u!1 &1770214979
