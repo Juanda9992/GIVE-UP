@@ -73,5 +73,9 @@ public class Player_Controller : MonoBehaviour
         {
             GameObject.FindObjectOfType<Level_Completion_Manager>().CompleteLevel();
         }    
+        if(other.transform.CompareTag("Lethal"))
+        {
+            GameObject.FindObjectOfType<Respawn_Manager>().ResetByDeath();
+        }
     }
 }

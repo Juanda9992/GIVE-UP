@@ -11,13 +11,24 @@ public class Respawn_Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        restartAction.action.performed += ResetGame;    
+        restartAction.action.performed += ResetGameByAction;    
     }
 
-    private void ResetGame(InputAction.CallbackContext context)
+    private void ResetGameByAction(InputAction.CallbackContext context)
+    {
+        ResetGame();
+    }
+    
+    private void ResetGame()
     {
         OnGameRestarted?.Invoke();
         Debug.Log("Reset Game");
+    }
+
+    public void ResetByDeath()
+    {
+        Debug.Log("Player Dead");
+        ResetGame();
     }
 
 }
