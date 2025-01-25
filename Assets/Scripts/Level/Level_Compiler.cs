@@ -35,6 +35,7 @@ public class Level_Compiler : Editor
 
         if(levelLoaded != null)
         {
+            ClearLevelInEditor();
             GameObject.FindObjectOfType<Level_Handler>().LoadLevel(levelLoaded);
         }
 
@@ -43,6 +44,11 @@ public class Level_Compiler : Editor
     [MenuItem("Tools/Reset Level")]
     private static void ClearLevelInEditor()
     {
-        GameObject.FindObjectOfType<Level_Handler>().ClearLevelInEditor(); 
+        Object_Editor_Data[] objectsInEditor = GameObject.FindObjectsOfType<Object_Editor_Data>();
+
+        for(int i = 0; i<objectsInEditor.Length;i++)
+        {
+            DestroyImmediate(objectsInEditor[i].gameObject);
+        } 
     }
 }

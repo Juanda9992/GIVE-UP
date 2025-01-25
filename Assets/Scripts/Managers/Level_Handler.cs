@@ -56,23 +56,10 @@ public class Level_Handler : MonoBehaviour
         objectDictionary[ObjectType.Block] = block;
         objectDictionary[ObjectType.Spike] = spike;
 
-        ClearLevelInEditor();
         for(int i = 0; i< data.level_Objects.Count;i++)
         {
             GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.identity);
-            objectsInLevel.Add(currentObject);
         }
-    }
-    public void ClearLevelInEditor()
-    {
-        if(objectsInLevel.Count > 0)
-        {
-            for(int i = 0; i< objectsInLevel.Count;i++)
-            {
-                DestroyImmediate(objectsInLevel[i]);
-            }
-        }
-        objectsInLevel.Clear();
     }
 
     #endif
