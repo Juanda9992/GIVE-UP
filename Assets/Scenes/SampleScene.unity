@@ -1058,7 +1058,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1.2
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 85c14a34e0dd8cf44baf9d159e7830c2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 8
-  jumpHeight: 7
+  jumpHeight: 7.5
   checkAreaPosition: {fileID: 894107969}
   checkAreaRadius: 0.2
   groundDetectionLayerMask:
@@ -1360,6 +1360,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLevel: 0
   levelText: {fileID: 612173910}
+  levels_Container: {fileID: 11400000, guid: 5783f87d5a0e5e34abca5680753b0817, type: 2}
+  block: {fileID: 4892461324056127546, guid: 786fbd5733d45cb4baaaff2373007cc1, type: 3}
+  spike: {fileID: 5167460520582702952, guid: 61c5ed73c928d1c46ba502fee7450ecb, type: 3}
+  objectsInLevel: []
 --- !u!1 &1952071130
 GameObject:
   m_ObjectHideFlags: 0
