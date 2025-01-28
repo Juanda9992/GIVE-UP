@@ -7,6 +7,7 @@ public class Level_Handler : MonoBehaviour
 {
     public int currentLevel = 0;
 
+    [SerializeField] private Vector2 defaultSpawnerPos;
     [SerializeField] private TextMeshProUGUI levelText;
     [SerializeField] private Levels_Container levels_Container;
 
@@ -44,6 +45,8 @@ public class Level_Handler : MonoBehaviour
             {
                 GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));
                 objectsInLevel.Add(currentObject);
+
+                GameObject.FindObjectOfType<Player_Spawner>().transform.position = data.spawnerPosition != Vector2.zero ? data.spawnerPosition : defaultSpawnerPos;
             }
         }
     }
@@ -59,6 +62,8 @@ public class Level_Handler : MonoBehaviour
         for(int i = 0; i< data.level_Objects.Count;i++)
         {
             GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));
+
+            GameObject.FindObjectOfType<Player_Spawner>().transform.position = data.spawnerPosition != Vector2.zero ? data.spawnerPosition : defaultSpawnerPos;
         }
     }
 

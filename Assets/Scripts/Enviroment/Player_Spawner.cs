@@ -6,6 +6,8 @@ public class Player_Spawner : MonoBehaviour
 {
     [SerializeField] private Player_Controller _player_Controller;
     [SerializeField] private Transform spawnPoint;
+
+    public Vector2 defaultPosition;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,4 +19,5 @@ public class Player_Spawner : MonoBehaviour
         _player_Controller.ResetSpeed();
         _player_Controller.transform.position = spawnPoint.position;
     }
+
 }

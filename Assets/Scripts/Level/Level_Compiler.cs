@@ -18,7 +18,8 @@ public class Level_Compiler : Editor
             newLevel.AddObjectToList(objectsToStore[i]);
         }
 
-        
+        newLevel.spawnerPosition = GameObject.FindObjectOfType<Player_Spawner>().transform.position;
+
         string pathToCreateLevel = "Assets/Scriptables/Level/";
 
         string[] existingScriptables = Directory.GetFiles(pathToCreateLevel,"*.asset");
