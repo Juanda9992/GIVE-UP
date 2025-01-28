@@ -6,6 +6,7 @@ using UnityEngine;
 public class Level_Data : ScriptableObject
 {
     public List<Object_Data> level_Objects = new List<Object_Data>();
+    public Vector2 spawnerPosition;
 
     public void AddObjectToList(Object_Editor_Data object_Editor_Data)
     {

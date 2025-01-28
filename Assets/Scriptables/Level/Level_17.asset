@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4fec61b3e5f654da49a0f6fa527768, type: 3}
+  m_Name: Level_17
+  m_EditorClassIdentifier: 
+  level_Objects:
+  - objectType: 0
+    objectPosition: {x: 6.5, y: -3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: -2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: -1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: -0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 4.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 7.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 6.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: 5.5}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 6.5, y: -4.25}
+    zRotation: 180
+  - objectType: 1
+    objectPosition: {x: 0.5, y: -4.25}
+    zRotation: 180
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 5.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 6.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 7.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 4.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: -0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: 1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: -1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: -2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: -3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: -3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: -2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: -1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: -0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 4.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 7.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 6.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -0.5, y: 5.5}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -0.5, y: -4.25}
+    zRotation: 180
+  - objectType: 1
+    objectPosition: {x: -6.5, y: -4.25}
+    zRotation: 180
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 5.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 6.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 7.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 4.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 3.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: -0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 0.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: 1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: -1.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: -2.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -6.5, y: -3.5}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 2.5, y: -6.25}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 3.5, y: -6.25}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 4.5, y: -6.25}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -2.5, y: -6.25}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -3.5, y: -6.25}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -4.5, y: -6.25}
+    zRotation: 0
+  spawnerPosition: {x: -10.5, y: -6.25}
