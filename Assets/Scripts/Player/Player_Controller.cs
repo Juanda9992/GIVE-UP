@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -78,4 +79,12 @@ public class Player_Controller : MonoBehaviour
             GameObject.FindObjectOfType<Respawn_Manager>().ResetByDeath();
         }
     }
+
+    #if UNITY_EDITOR
+
+    private void OnDrawGizmosSelected() 
+    {
+        Gizmos.DrawSphere(checkAreaPosition.position,checkAreaRadius);    
+    }
+    #endif
 }
