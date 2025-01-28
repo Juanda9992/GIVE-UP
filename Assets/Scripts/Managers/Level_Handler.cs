@@ -42,7 +42,7 @@ public class Level_Handler : MonoBehaviour
             Level_Data data = levels_Container.allLevels[currentLevel];
             for(int i = 0; i< data.level_Objects.Count;i++)
             {
-                GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.identity);
+                GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));
                 objectsInLevel.Add(currentObject);
             }
         }
@@ -58,7 +58,7 @@ public class Level_Handler : MonoBehaviour
 
         for(int i = 0; i< data.level_Objects.Count;i++)
         {
-            GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.identity);
+            GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));
         }
     }
 

@@ -9,7 +9,7 @@ public class Level_Data : ScriptableObject
 
     public void AddObjectToList(Object_Editor_Data object_Editor_Data)
     {
-        level_Objects.Add(new Object_Data(){objectType = object_Editor_Data.objectType,objectPosition = object_Editor_Data.transform.position});
+        level_Objects.Add(new Object_Data(){objectType = object_Editor_Data.objectType,objectPosition = object_Editor_Data.transform.position,zRotation = object_Editor_Data.transform.rotation.eulerAngles.z});
     }
 }
 
@@ -18,6 +18,7 @@ public class Object_Data
 {   
     public ObjectType objectType;
     public Vector2 objectPosition;
+    public float zRotation;
 }
 
 public enum ObjectType
