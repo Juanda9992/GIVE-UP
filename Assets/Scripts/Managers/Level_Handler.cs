@@ -12,18 +12,23 @@ public class Level_Handler : MonoBehaviour
     [SerializeField] private Levels_Container levels_Container;
 
 
-    [SerializeField] private GameObject block, spike;
+    [SerializeField] private GameObject block, spike,falling_Block;
     [SerializeField] private List<GameObject> objectsInLevel;
     private Dictionary<ObjectType,GameObject> objectDictionary;
 
 
     private void Awake() 
     {
+        InitializeObjectsDictionary();
+    }
+
+    private void InitializeObjectsDictionary()
+    {
         objectDictionary = new Dictionary<ObjectType, GameObject>();
 
         objectDictionary[ObjectType.Block] = block;
         objectDictionary[ObjectType.Spike] = spike;
-
+        objectDictionary[ObjectType.Falling_Block] = falling_Block;
     }
     public void IncreaseLevel()
     {
@@ -54,11 +59,7 @@ public class Level_Handler : MonoBehaviour
     #if UNITY_EDITOR
     public void LoadLevel(Level_Data data)
     {
-        objectDictionary = new Dictionary<ObjectType, GameObject>();
-
-        objectDictionary[ObjectType.Block] = block;
-        objectDictionary[ObjectType.Spike] = spike;
-
+        InitializeObjectsDictionary();
         for(int i = 0; i< data.level_Objects.Count;i++)
         {
             GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));

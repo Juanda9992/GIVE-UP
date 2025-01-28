@@ -22,6 +22,7 @@ public class Respawn_Manager : MonoBehaviour
     private void ResetGame()
     {
         OnGameRestarted?.Invoke();
+        RevertObjectsStatus();
         Debug.Log("Reset Game");
     }
 
@@ -29,6 +30,16 @@ public class Respawn_Manager : MonoBehaviour
     {
         Debug.Log("Player Dead");
         ResetGame();
+    }
+
+    private void RevertObjectsStatus()
+    {
+        Revert_Position[] allDynamicObjects = GameObject.FindObjectsOfType<Revert_Position>(true);
+
+        foreach(var obj in allDynamicObjects)
+        {
+            obj.SetObjectInitialStatus();
+        }
     }
 
 }

@@ -25,5 +25,6 @@ public class Object_Data
 public enum ObjectType
 {
     Block,
-    Spike
+    Spike,
+    Falling_Block
 }
