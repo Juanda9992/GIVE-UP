@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -34,12 +35,17 @@ public class Respawn_Manager : MonoBehaviour
 
     private void RevertObjectsStatus()
     {
-        Revert_Position[] allDynamicObjects = GameObject.FindObjectsOfType<Revert_Position>(true);
+        IRevertable[] allDynamicObjects = GameObject.FindObjectsOfType<MonoBehaviour>(true).OfType<IRevertable>().ToArray();
 
         foreach(var obj in allDynamicObjects)
         {
-            obj.SetObjectInitialStatus();
+            obj.RevertObject();
         }
     }
 
+}
+
+public interface IRevertable
+{
+    void RevertObject();
 }

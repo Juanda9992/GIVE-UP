@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Falling_Block : MonoBehaviour
+public class Falling_Block : MonoBehaviour, IRevertable
 {
     [SerializeField] private LayerMask groundAndPlayerLayer;
     private bool detectedPlayer = false;
@@ -29,5 +29,11 @@ public class Falling_Block : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) 
     {
         gameObject.SetActive(false);    
+    }
+
+    public void RevertObject()
+    {
+        gameObject.SetActive(true);
+        rb.isKinematic = false;
     }
 }
