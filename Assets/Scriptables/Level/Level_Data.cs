@@ -26,5 +26,6 @@ public enum ObjectType
 {
     Block,
     Spike,
-    Falling_Block
+    Falling_Block,
+    Breakable_Block
 }
