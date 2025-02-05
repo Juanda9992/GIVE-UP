@@ -15,23 +15,30 @@ MonoBehaviour:
   level_Objects:
   - objectType: 3
     objectPosition: {x: 0, y: -1}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 3
     objectPosition: {x: 0, y: 0}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 3
     objectPosition: {x: 0, y: -5}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 3
     objectPosition: {x: 0, y: -3}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 3
     objectPosition: {x: 0, y: -2}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 3
     objectPosition: {x: 0, y: -6}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 3
     objectPosition: {x: 0, y: -4}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   spawnerPosition: {x: -10.5, y: -6.25}

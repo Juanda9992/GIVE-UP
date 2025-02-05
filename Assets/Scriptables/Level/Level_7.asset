@@ -15,3 +15,6 @@ MonoBehaviour:
   level_Objects:
   - objectType: 1
     objectPosition: {x: 0, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  spawnerPosition: {x: 0, y: 0}
