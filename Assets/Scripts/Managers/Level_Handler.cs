@@ -50,6 +50,7 @@ public class Level_Handler : MonoBehaviour
             for(int i = 0; i< data.level_Objects.Count;i++)
             {
                 GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));
+                currentObject.transform.localScale = data.level_Objects[i].objectScale;
                 objectsInLevel.Add(currentObject);
 
                 GameObject.FindObjectOfType<Player_Spawner>().transform.position = data.spawnerPosition != Vector2.zero ? data.spawnerPosition : defaultSpawnerPos;
@@ -64,7 +65,7 @@ public class Level_Handler : MonoBehaviour
         for(int i = 0; i< data.level_Objects.Count;i++)
         {
             GameObject currentObject = Instantiate(objectDictionary[data.level_Objects[i].objectType],data.level_Objects[i].objectPosition,Quaternion.Euler(0,0,data.level_Objects[i].zRotation));
-
+            currentObject.transform.localScale = data.level_Objects[i].objectScale;
             GameObject.FindObjectOfType<Player_Spawner>().transform.position = data.spawnerPosition != Vector2.zero ? data.spawnerPosition : defaultSpawnerPos;
         }
     }
