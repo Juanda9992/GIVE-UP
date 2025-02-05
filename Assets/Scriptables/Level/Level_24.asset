@@ -10,19 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d4fec61b3e5f654da49a0f6fa527768, type: 3}
-  m_Name: Level_6
+  m_Name: Level_24
   m_EditorClassIdentifier: 
   level_Objects:
-  - objectType: 0
-    objectPosition: {x: -6, y: -5.75}
-    objectScale: {x: 1, y: 1.5}
+  - objectType: 3
+    objectPosition: {x: 0, y: -1}
     zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 6, y: -5.75}
-    objectScale: {x: 1, y: 1.5}
+  - objectType: 3
+    objectPosition: {x: 0, y: 0}
     zRotation: 0
-  - objectType: 0
+  - objectType: 3
     objectPosition: {x: 0, y: -5}
-    objectScale: {x: 1, y: 3}
+    zRotation: 0
+  - objectType: 3
+    objectPosition: {x: 0, y: -3}
+    zRotation: 0
+  - objectType: 3
+    objectPosition: {x: 0, y: -2}
+    zRotation: 0
+  - objectType: 3
+    objectPosition: {x: 0, y: -6}
+    zRotation: 0
+  - objectType: 3
+    objectPosition: {x: 0, y: -4}
     zRotation: 0
   spawnerPosition: {x: -10.5, y: -6.25}

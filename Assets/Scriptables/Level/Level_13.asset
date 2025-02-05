@@ -14,68 +14,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level_Objects:
   - objectType: 1
-    objectPosition: {x: 3.5, y: -1.25}
-  - objectType: 1
-    objectPosition: {x: -2.5, y: -3.25}
-  - objectType: 0
-    objectPosition: {x: -5.5, y: -5}
-  - objectType: 0
-    objectPosition: {x: -5.5, y: -6}
-  - objectType: 0
-    objectPosition: {x: -2.5, y: -6}
-  - objectType: 0
-    objectPosition: {x: -2.5, y: -5}
-  - objectType: 0
-    objectPosition: {x: 0.5, y: -5}
-  - objectType: 0
-    objectPosition: {x: 0.5, y: -6}
-  - objectType: 0
-    objectPosition: {x: 3.5, y: -6}
-  - objectType: 0
-    objectPosition: {x: 3.5, y: -5}
-  - objectType: 0
-    objectPosition: {x: 6.5, y: -5}
-  - objectType: 0
-    objectPosition: {x: 6.5, y: -6}
-  - objectType: 0
-    objectPosition: {x: 6.5, y: -4}
-  - objectType: 0
-    objectPosition: {x: 3.5, y: -4}
-  - objectType: 0
-    objectPosition: {x: 0.5, y: -4}
-  - objectType: 0
-    objectPosition: {x: -2.5, y: -4}
-  - objectType: 0
-    objectPosition: {x: 0.5, y: -3}
-  - objectType: 0
-    objectPosition: {x: 3.5, y: -3}
-  - objectType: 0
-    objectPosition: {x: 6.5, y: -3}
-  - objectType: 0
-    objectPosition: {x: 6.5, y: -2}
-  - objectType: 0
-    objectPosition: {x: 3.5, y: -2}
-  - objectType: 0
-    objectPosition: {x: 6.5, y: -1}
-  - objectType: 1
-    objectPosition: {x: -1.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: -0.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: 1.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: 2.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: 4.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: 5.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: -4.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: -3.5, y: -6.25}
-  - objectType: 1
-    objectPosition: {x: -6.5, y: -6.25}
+    objectPosition: {x: 8.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
   - objectType: 1
     objectPosition: {x: 7.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
   - objectType: 1
-    objectPosition: {x: 8.5, y: -6.25}
+    objectPosition: {x: -6.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -3.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -4.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 5.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 4.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 2.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 1.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -0.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -1.5, y: -6.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 6.5, y: -3.5}
+    objectScale: {x: 1, y: 6}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 3.5, y: -4}
+    objectScale: {x: 1, y: 5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 0.5, y: -4.5}
+    objectScale: {x: 1, y: 4}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -2.5, y: -5}
+    objectScale: {x: 1, y: 3}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: -5.5, y: -5.5}
+    objectScale: {x: 1, y: 2}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -2.5, y: -3.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 3.5, y: -1.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  spawnerPosition: {x: -10.5, y: -6.25}

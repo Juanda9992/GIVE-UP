@@ -14,182 +14,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level_Objects:
   - objectType: 0
-    objectPosition: {x: 7, y: 7.5}
+    objectPosition: {x: -5, y: 7.5}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: 7, y: 6.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: 4.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: 5.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: 3.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: 2.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: 0.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: 1.5}
-    zRotation: 0
-  - objectType: 1
-    objectPosition: {x: 7, y: -0.25}
-    zRotation: 180
-  - objectType: 1
-    objectPosition: {x: 7, y: -3.25}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: -4}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 7, y: -5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: -5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: -4}
-    zRotation: 0
-  - objectType: 1
-    objectPosition: {x: 3, y: -3.25}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 5, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 5, y: -5}
-    zRotation: 0
-  - objectType: 1
-    objectPosition: {x: 3, y: -0.25}
-    zRotation: 180
-  - objectType: 0
-    objectPosition: {x: 3, y: 1.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 0.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 2.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 3.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 5.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 4.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 6.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 3, y: 7.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 7.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 6.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 4.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 5.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 3.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 2.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 0.5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: 1.5}
-    zRotation: 0
-  - objectType: 1
-    objectPosition: {x: -1, y: -0.25}
-    zRotation: 180
-  - objectType: 0
-    objectPosition: {x: 1, y: -5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: 1, y: -6}
-    zRotation: 0
-  - objectType: 1
-    objectPosition: {x: -1, y: -3.25}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: -4}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -1, y: -5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -7, y: -5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -7, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -5, y: -5}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -5, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -5, y: -4}
-    zRotation: 0
-  - objectType: 1
-    objectPosition: {x: -5, y: -3.25}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -3, y: -6}
-    zRotation: 0
-  - objectType: 0
-    objectPosition: {x: -3, y: -5}
+    objectPosition: {x: -5, y: 3.25}
+    objectScale: {x: 1, y: 6.5}
     zRotation: 0
   - objectType: 1
     objectPosition: {x: -5, y: -0.25}
+    objectScale: {x: 1, y: 1}
     zRotation: 180
   - objectType: 0
-    objectPosition: {x: -5, y: 1.5}
+    objectPosition: {x: -3, y: -5.5}
+    objectScale: {x: 1, y: 2}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -5, y: -3.25}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 0.5}
+    objectPosition: {x: -5, y: -5}
+    objectScale: {x: 1, y: 3}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 2.5}
+    objectPosition: {x: -7, y: -5.5}
+    objectScale: {x: 1, y: 2}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 3.5}
+    objectPosition: {x: -1, y: -5}
+    objectScale: {x: 1, y: 3}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -1, y: -3.25}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 5.5}
+    objectPosition: {x: 1, y: -5.5}
+    objectScale: {x: 1, y: 2}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: -1, y: -0.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 180
+  - objectType: 0
+    objectPosition: {x: -1, y: 3.25}
+    objectScale: {x: 1, y: 6.5}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 4.5}
+    objectPosition: {x: -1, y: 7.5}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 6.5}
+    objectPosition: {x: 3, y: 7.5}
+    objectScale: {x: 1, y: 1}
     zRotation: 0
   - objectType: 0
-    objectPosition: {x: -5, y: 7.5}
+    objectPosition: {x: 3, y: 3.25}
+    objectScale: {x: 1, y: 6.5}
     zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 3, y: -0.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 180
+  - objectType: 0
+    objectPosition: {x: 5, y: -5.5}
+    objectScale: {x: 1, y: 2}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 3, y: -3.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 3, y: -5}
+    objectScale: {x: 1, y: 3}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 7, y: -5}
+    objectScale: {x: 1, y: 3}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 7, y: -3.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  - objectType: 1
+    objectPosition: {x: 7, y: -0.25}
+    objectScale: {x: 1, y: 1}
+    zRotation: 180
+  - objectType: 0
+    objectPosition: {x: 7, y: 3.25}
+    objectScale: {x: 1, y: 6.5}
+    zRotation: 0
+  - objectType: 0
+    objectPosition: {x: 7, y: 7.5}
+    objectScale: {x: 1, y: 1}
+    zRotation: 0
+  spawnerPosition: {x: -10.5, y: -6.25}
