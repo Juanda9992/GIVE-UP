@@ -46,7 +46,7 @@ public class Level_Compiler : Editor
     private static void ClearLevelInEditor()
     {
         Object_Editor_Data[] objectsInEditor = GameObject.FindObjectsOfType<Object_Editor_Data>();
-
+        GameObject.FindObjectOfType<Player_Spawner>().ResetSpawnPos(); 
         for(int i = 0; i<objectsInEditor.Length;i++)
         {
             DestroyImmediate(objectsInEditor[i].gameObject);

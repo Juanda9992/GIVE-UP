@@ -20,4 +20,9 @@ public class Player_Spawner : MonoBehaviour
         _player_Controller.transform.position = spawnPoint.position;
     }
 
+    public void ResetSpawnPos()
+    {
+        transform.position = defaultPosition;
+    }
+
 }
